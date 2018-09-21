@@ -9,52 +9,44 @@
   <form method="post" action="traitement.php">
     <fieldset class="fieldset1">
       <legend class="fieldset1">Votre identité</legend>
-      <p>
-        <label for="pseudo">Non :</label>
-        <input type="text" name="Non" id="non" placeholder="Non" />
-        <br />
-        <label for="pseudo">Prénon :</label>
-        <input type="text" name="Non" id="Non" placeholder="prénon" />
-        <br />
-        <label for="pass">Adresse Mail:</label>
-        <input type="text" name="adresse mail" id="adresse mail" placeholder="adresse mail" />
-      </p>
+        <ol>
+        <li><label for="pseudo">Non :</label>
+        <input type="text" name="Non" id="non" placeholder="Non" /></li>
+        <li><label for="pseudo">Prénon :</label>
+        <input type="text" name="Non" id="Non" placeholder="prénon" /></li>
+        <li><label for="pass">Adresse Mail:</label>
+        <input type="text" name="adresse mail" id="adresse mail" placeholder="adresse mail" /></li>
+      </ol>
     </fieldset>
   </form>
   <fieldset class="fieldset2">
     <legend class="fieldset2">Adresse de livraison</legend>
-    <p>
-      <label for="pass">Adresse Mail:</label>
-      <textarea name="ameliorer" id="ameliorer"></textarea>
-      <br />
-      <label for="pseudo">code postal :</label>
-      <input type="text" name="pseudo" id="pseudo" placeholder="Code postal" />
-      <br />
-      <label for="pseudo">ville :</label>
-      <input type="text" name="pseudo" id="pseudo" placeholder="ville" />
-    </p>
+      <ol>
+      <li><label for="pass">Adresse Mail:</label>
+      <textarea name="ameliorer" id="ameliorer"></textarea></li>
+      <li><label for="pseudo">code postal :</label>
+      <input type="text" name="pseudo" id="pseudo" placeholder="Code postal" /></li>
+      <li><label for="pseudo">ville :</label>
+      <input type="text" name="pseudo" id="pseudo" placeholder="ville" /></li>
+    </ol>
   </fieldset>
 </form>
 <fieldset class="fieldset3">
   <legend class="fieldset3">Information de reglement</legend>
-  <p>
-    <label>1.Type de cartebancaire :</label>
-      <br />
-      <input type="radio" name="radio1" value="visa"><label for="visa">Visa
-      </label>
-      <br />
-      <input type="radio" name="radio1" value="master card"><label for="master card">master card
-      </label>
-      <br />
-      <label for="pseudo">2 .Numéro de carte :</label>
-      <input type="text" name="pseudo" id="pseudo" placeholder="numéro de carte" />
-      <br />
-      <label for="pseudo">3 .Code de sécurité :</label>
-      <input type="text" name="pseudo" id="pseudo" placeholder="code de securité"/>
-      <br />
-      <label for="pass">4 .Non du titulaire :</label>
-      <input type="password" name="pass" id="pass" placeholder="non du titulaire" />
-    </p>
+    <ol>
+      <li><label>1.Type de carte bancaire :</label></li>
+      <ul>
+      <li><input type="radio" name="radio1" value="visa"><label for="visa">Visa
+      </label></li>
+      <li><input type="radio" name="radio1" value="master card"><label for="master card">master card</label></li>
+      </ul>
+      <li><label for="pseudo">Numéro de carte :</label>
+      <input type="text" name="pseudo" id="pseudo" placeholder="numéro de carte" /></li>
+      <li><label for="pseudo">Code de sécurité :</label>
+      <input type="text" name="pseudo" id="pseudo" placeholder="code de securité" /></li>
+      <li><label for="pass">Non du titulaire :</label>
+      <input type="password" name="pass" id="pass" placeholder="non du titulaire" /></li>
+    </ol>
   </fieldset>
   </form>
   <input type="button" name="nom" value="J'achète">
